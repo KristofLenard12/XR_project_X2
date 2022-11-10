@@ -1,0 +1,4960 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8131950279048504983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8131950279048504982}
+  - component: {fileID: 8131950279048504987}
+  - component: {fileID: 8131950279048504980}
+  - component: {fileID: 8131950279048504981}
+  - component: {fileID: 8131950279048504986}
+  m_Layer: 0
+  m_Name: GoalWall1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8131950279048504982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279048504983}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.351, y: 8.3, z: 6.007}
+  m_LocalScale: {x: 0.3, y: 0.01, z: 0.01}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8131950279879773347}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8131950279048504987
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279048504983}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8131950279048504980
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279048504983}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 80ccf648875fd5144978f7a8760f10dc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8131950279048504981
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279048504983}
+  m_Material: {fileID: 13400000, guid: 36d8107c52ff908458d4c0e368522156, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &8131950279048504986
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279048504983}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 126
+  m_CollisionDetection: 1
+--- !u!1 &8131950279341121009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8131950279341121008}
+  - component: {fileID: 8131950279341121013}
+  - component: {fileID: 8131950279341121014}
+  - component: {fileID: 8131950279341121015}
+  - component: {fileID: 8131950279341121012}
+  m_Layer: 0
+  m_Name: SideWall2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8131950279341121008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279341121009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.504, y: 8.29999, z: 7.006}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8131950279879773347}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8131950279341121013
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279341121009}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8131950279341121014
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279341121009}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 80ccf648875fd5144978f7a8760f10dc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8131950279341121015
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279341121009}
+  m_Material: {fileID: 13400000, guid: 36d8107c52ff908458d4c0e368522156, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &8131950279341121012
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279341121009}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 126
+  m_CollisionDetection: 1
+--- !u!1 &8131950279584126652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8131950279584126627}
+  - component: {fileID: 8131950279584126624}
+  - component: {fileID: 8131950279584126625}
+  - component: {fileID: 8131950279584126626}
+  - component: {fileID: 8131950279584126631}
+  m_Layer: 0
+  m_Name: GoalWall2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8131950279584126627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279584126652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.354, y: 8.3, z: 6.007}
+  m_LocalScale: {x: 0.3, y: 0.01, z: 0.01}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8131950279879773347}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8131950279584126624
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279584126652}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8131950279584126625
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279584126652}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 80ccf648875fd5144978f7a8760f10dc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8131950279584126626
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279584126652}
+  m_Material: {fileID: 13400000, guid: 36d8107c52ff908458d4c0e368522156, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &8131950279584126631
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279584126652}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 126
+  m_CollisionDetection: 1
+--- !u!1 &8131950279713318952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8131950279713318959}
+  - component: {fileID: 8131950279713318956}
+  - component: {fileID: 8131950279713318957}
+  - component: {fileID: 8131950279713318958}
+  - component: {fileID: 8131950279713318931}
+  m_Layer: 0
+  m_Name: SideWall1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8131950279713318959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279713318952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.499, y: 8.29999, z: 7.006}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8131950279879773347}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8131950279713318956
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279713318952}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8131950279713318957
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279713318952}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 80ccf648875fd5144978f7a8760f10dc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8131950279713318958
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279713318952}
+  m_Material: {fileID: 13400000, guid: 36d8107c52ff908458d4c0e368522156, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &8131950279713318931
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279713318952}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 126
+  m_CollisionDetection: 1
+--- !u!1 &8131950279819150430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8131950279819150429}
+  - component: {fileID: 8131950279819150401}
+  - component: {fileID: 8131950279819150402}
+  - component: {fileID: 8131950279819150403}
+  - component: {fileID: 8131950279819150428}
+  m_Layer: 0
+  m_Name: MatchPlane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8131950279819150429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279819150430}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8.29, z: 7.01}
+  m_LocalScale: {x: 0.1, y: 1, z: 0.2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8131950279879773347}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8131950279819150401
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279819150430}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8131950279819150402
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279819150430}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: cdbc5f207ca0689448bac1d579c135a5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8131950279819150403
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279819150430}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &8131950279819150428
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279819150430}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 126
+  m_CollisionDetection: 1
+--- !u!1 &8131950279831179144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8131950279831179151}
+  - component: {fileID: 8131950279831179148}
+  - component: {fileID: 8131950279831179149}
+  - component: {fileID: 8131950279831179150}
+  - component: {fileID: 8131950279831179123}
+  m_Layer: 0
+  m_Name: GoalWall4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8131950279831179151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279831179144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.354, y: 8.299, z: 8.01}
+  m_LocalScale: {x: 0.3, y: 0.01, z: 0.01}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8131950279879773347}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8131950279831179148
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279831179144}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8131950279831179149
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279831179144}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 80ccf648875fd5144978f7a8760f10dc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8131950279831179150
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279831179144}
+  m_Material: {fileID: 13400000, guid: 36d8107c52ff908458d4c0e368522156, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &8131950279831179123
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279831179144}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 126
+  m_CollisionDetection: 1
+--- !u!1 &8131950279879773372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8131950279879773347}
+  - component: {fileID: 7541354926707744073}
+  - component: {fileID: 7314817237153471741}
+  m_Layer: 0
+  m_Name: AirHockeyTable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8131950279879773347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279879773372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -7.91, z: -3.28}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8131950279819150429}
+  - {fileID: 8131950280129045102}
+  - {fileID: 8131950279977235363}
+  - {fileID: 8131950279713318959}
+  - {fileID: 8131950279341121008}
+  - {fileID: 8131950279048504982}
+  - {fileID: 8131950279584126627}
+  - {fileID: 8131950280497774056}
+  - {fileID: 8131950279831179151}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7541354926707744073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279879773372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff62c046a053f416a8dc48ad6483a25e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAuthorityGained:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStateAuthority:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInputAuthority:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAuthorityLost:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStateRemote:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInputRemote:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAuthorityTransferRejected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAuthorityRequestRejected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnConnectedEntityChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInputSimulatorConnected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInputOwnerAssigned:
+    m_PersistentCalls:
+      m_Calls: []
+  archetype:
+    boundComponents:
+    - component: {fileID: 8131950279879773347}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279819150429}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279819150401}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279819150402}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279819150403}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279819150428}
+      lodStepsActive: 1
+    - component: {fileID: 8131950280129045102}
+      lodStepsActive: 1
+    - component: {fileID: 8131950280129045075}
+      lodStepsActive: 1
+    - component: {fileID: 8131950280129045100}
+      lodStepsActive: 1
+    - component: {fileID: 8131950280129045101}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279977235363}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279977235360}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279977235361}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279977235362}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279713318959}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279713318956}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279713318957}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279713318958}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279713318931}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279341121008}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279341121013}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279341121014}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279341121015}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279341121012}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279048504982}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279048504987}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279048504980}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279048504981}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279048504986}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279584126627}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279584126624}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279584126625}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279584126626}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279584126631}
+      lodStepsActive: 1
+    - component: {fileID: 8131950280497774056}
+      lodStepsActive: 1
+    - component: {fileID: 8131950280497774061}
+      lodStepsActive: 1
+    - component: {fileID: 8131950280497774062}
+      lodStepsActive: 1
+    - component: {fileID: 8131950280497774063}
+      lodStepsActive: 1
+    - component: {fileID: 8131950280497774060}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279831179151}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279831179148}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279831179149}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279831179150}
+      lodStepsActive: 1
+    - component: {fileID: 8131950279831179123}
+      lodStepsActive: 1
+    lodLevels:
+    - distance: 0
+    archetypeName: AirHockeyTable_1b8979aab75cc3548ac0742146ec7eed
+    GeneratesArchetypeDefinition: 1
+  InterpolationLocation: -1
+  bakedScriptType: Coherence.Generated.CoherenceSyncAirHockeyTable_id1, Assembly-CSharp
+  approveAuthorityTransferRequests: 1
+  simulationType: 0
+  authorityTransferType: 2
+  orphanedBehavior: 0
+  lifetimeType: 0
+  uniquenessType: 1
+  coherenceUUID: 
+  destructionBehavior: 0
+  reflectionBindings:
+  - name: Translate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279879773347}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 686d6b12-198a-4c0c-8c35-6eb0221689b5
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: Translate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - System.Single, mscorlib
+    - System.Single, mscorlib
+    - System.Single, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279879773347}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 179492cb-9a31-4faa-bf26-d140fd0c3772
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: Translate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    - UnityEngine.Transform, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279879773347}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 2298d1ae-dfff-40e8-8aa3-e6b5f3030ca3
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: Translate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - System.Single, mscorlib
+    - System.Single, mscorlib
+    - System.Single, mscorlib
+    - UnityEngine.Transform, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279879773347}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: f1a15e84-7256-4275-ad2c-373f7b2c4516
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: Rotate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - System.Single, mscorlib
+    - System.Single, mscorlib
+    - System.Single, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279879773347}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 43f7ab57-670e-4818-a301-7f955fd7610f
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: Rotate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279879773347}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 18bb37a1-fb5f-4ab9-ac38-383dc7ef19e1
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: Rotate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    - System.Single, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279879773347}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 6b29093b-f207-4738-b1fb-aaa3e9afa177
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: RotateAround
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    - UnityEngine.Vector3, UnityEngine
+    - System.Single, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279879773347}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 8f63f1f6-3041-4b20-8132-787104690b67
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: RotateAround
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    - System.Single, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279879773347}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: ccc6a23a-1300-4683-8aeb-8455253483c3
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: RotateAroundLocal
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    - System.Single, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279879773347}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 41ba5041-49ad-4ec6-951e-a686db4d2854
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: velocity
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: e2f376ae-dd21-4705-8bca-4adbc4eaf495
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: angularVelocity
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: ec29027a-2a5f-4e10-9eb5-72575be3cd1b
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: drag
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 4fc2be14-2e0d-478a-b040-e3839b91844a
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: angularDrag
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: f3b35668-e311-4d3f-8c69-0d31e5e006d7
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: mass
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 10d1a23d-2ad1-4187-98c0-652ba6ef66c7
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: useGravity
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: dd61dd0a-1b73-4899-93da-fea42a69cd4e
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: maxDepenetrationVelocity
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 90834308-6c40-4970-a3a8-38bd3b33a5a5
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: isKinematic
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 059746fc-55b8-474f-8ab6-171118882890
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: freezeRotation
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 339ddca9-f98d-446c-ac63-44779023cdec
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: centerOfMass
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 547a4730-4a35-4c8f-94ad-c6fca63ef323
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: inertiaTensorRotation
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Quaternion, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 466bce04-3dae-4c2c-bbb1-c58b58b05823
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: inertiaTensor
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 03ba43e3-7be4-4100-8d42-716b0f1f552d
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: detectCollisions
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: ad63fad8-2e63-41e2-b8e2-b9f316eecdba
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: position
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 651fb210-24da-45f6-8f74-4333c2e74cc5
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: rotation
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Quaternion, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 95b99200-535d-4e6d-9502-0aa169612e9f
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: solverIterations
+    memberKind: 2
+    memberAssemblyType: System.Int32, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: a9ec41bf-b955-477a-a2f6-6739133812b6
+    archetypeData:
+      type: 1
+      minRange: -2147483648
+      maxRange: 2147483647
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 1
+        bits: 32
+        minRange: -2147483648
+        maxRange: 2147483647
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: sleepThreshold
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 99a21e1e-6951-4805-af89-28c96668d86a
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: maxAngularVelocity
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 4d2bcfc7-6b59-4134-8ae4-43a186b4be00
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: solverVelocityIterations
+    memberKind: 2
+    memberAssemblyType: System.Int32, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 58ab2138-9f98-4c3d-b70c-6b56a5c34acc
+    archetypeData:
+      type: 1
+      minRange: -2147483648
+      maxRange: 2147483647
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 1
+        bits: 32
+        minRange: -2147483648
+        maxRange: 2147483647
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: solverIterationCount
+    memberKind: 2
+    memberAssemblyType: System.Int32, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 7dfbbc5e-d99b-4af1-bc14-58203b772ed6
+    archetypeData:
+      type: 1
+      minRange: -2147483648
+      maxRange: 2147483647
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 1
+        bits: 32
+        minRange: -2147483648
+        maxRange: 2147483647
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: solverVelocityIterationCount
+    memberKind: 2
+    memberAssemblyType: System.Int32, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150428}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 89c788f9-2855-412a-9571-7dbb8a326d98
+    archetypeData:
+      type: 1
+      minRange: -2147483648
+      maxRange: 2147483647
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 1
+        bits: 32
+        minRange: -2147483648
+        maxRange: 2147483647
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: convex
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150403}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 9b5c0713-0840-4e04-a860-212dcdc57f2c
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: skinWidth
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150403}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 094e3a9e-21a1-47ba-ac2b-3430b0f9f483
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: inflateMesh
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150403}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 22f18210-8938-45df-9a64-c0c12088dd0a
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: enabled
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150403}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 7e99b422-ec27-4a2b-b74d-22ecf5a817f8
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: isTrigger
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150403}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: f9bb51ac-78bd-4351-adfb-50cc32a96a64
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: contactOffset
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150403}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 76421d3d-2d62-4778-9e3b-cfdfa93af468
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: hasModifiableContacts
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279819150403}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 45d87d07-3021-4a46-a00d-8e85918e9c80
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: center
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280129045101}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: c152ccf4-020f-46df-910f-681a4552a72e
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: size
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280129045101}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 8e17ff5b-b2c8-43bf-a036-82d7ed5f8ff9
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: extents
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280129045101}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 9ae9be23-8d3c-409b-8624-c69d481d4b2d
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: enabled
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280129045101}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: d3fd8d71-be1e-469a-ac8a-ca1c889f0646
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: isTrigger
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280129045101}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: d2491a7a-e1e2-4e7a-9248-078cb0ef8c08
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: contactOffset
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280129045101}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 86c27f81-8b7e-4ec7-b29d-1f56ed63799d
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: hasModifiableContacts
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280129045101}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 2dbb2501-f5ca-490d-993c-0a4adb143dce
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: center
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279977235362}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 980f2e44-4370-4faa-addf-9a7723e2b0cf
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: size
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279977235362}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 130a6642-a01a-4803-8b2c-f5fc57f4b7ab
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: extents
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279977235362}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: c49866b3-89f6-46fc-a49e-8d9a4c5d2b18
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: enabled
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279977235362}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: f4d056c6-9428-4617-b09d-4e3e193bc566
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: isTrigger
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279977235362}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: b518001f-be0a-4c4e-afb8-e07f6e9ddebe
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: contactOffset
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279977235362}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: d3abe82d-49c0-4679-827e-76e8342e568d
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: hasModifiableContacts
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279977235362}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 950a1073-e5e6-4f03-b38a-fae28fa1b97c
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: center
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279713318958}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: f0b3bcc9-7077-4acd-9d2a-8b1d4016e1a6
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: size
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279713318958}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 1b8b2abf-c323-4f30-bc70-165776475a50
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: extents
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279713318958}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 10278c86-2fa3-4361-8a17-f26b3b21b8cb
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: enabled
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279713318958}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: cb652325-ca12-4299-b372-f78afca32f63
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: isTrigger
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279713318958}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 59860ea1-6760-4f10-add6-a477feb87977
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: contactOffset
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279713318958}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: d838fcb1-0362-47fe-88f2-27d89a7ca114
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: hasModifiableContacts
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279713318958}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 04adae9a-ae8a-4b5e-a5e1-468fa8264ebd
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: center
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279341121015}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: daa7f016-1115-4ffd-9e75-7322b486e843
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: size
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279341121015}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 73090534-0d9d-4e4c-a6a7-e1d992c85ba4
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: extents
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279341121015}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 38f37154-b5ce-40c7-a5ad-0d8a46977a41
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: enabled
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279341121015}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 64c29493-256b-449f-b64a-909743bec663
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: isTrigger
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279341121015}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: bbe577d9-0027-45cf-b423-6c67e04848f1
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: contactOffset
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279341121015}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 1ab0787c-142e-46f3-a3f0-6be9de485e27
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: hasModifiableContacts
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279341121015}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 2db5ccac-7432-4fec-8add-2005978b69e1
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: center
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279048504981}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 61b3b2c5-c7b0-4734-9018-7812dbc38cf6
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: size
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279048504981}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 270d17c8-3b64-42ab-a1f5-bb6e63445236
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: extents
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279048504981}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: e1034320-a01b-45e8-a197-dbe513b687c0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: enabled
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279048504981}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 5b2c5ee8-5160-4860-a4c3-45865a3d8009
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: isTrigger
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279048504981}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: a30e7468-5e3a-4c0a-a3ee-b1d0d52ba118
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: contactOffset
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279048504981}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 553c2056-1333-4958-a427-e3cfe2c81502
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: hasModifiableContacts
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279048504981}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: ec0b2d62-9f2b-4fe7-98ac-8f80c39a0012
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: center
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279584126626}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 1b3bbb7b-b3d6-49a7-b774-677e120d4586
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: size
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279584126626}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: d18b6f79-4f14-426f-a248-0f448c34c044
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: extents
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279584126626}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 5b6c047d-6c2d-4890-b47f-d8595145feb0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: enabled
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279584126626}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 25ee61c8-e5e1-481f-a806-1fea8b3fabe1
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: isTrigger
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279584126626}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 983df633-0018-48f5-8927-3fc42e583bcc
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: contactOffset
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279584126626}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 1914b06c-255a-4e13-b04e-d9cbbae3539d
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: hasModifiableContacts
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279584126626}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 4859b405-01a4-43cb-9754-4ebd2568605b
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: center
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280497774063}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 66a4b521-2430-49ac-8a37-725657ea9f02
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: size
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280497774063}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: e7580ba7-dd0c-435f-86f9-20793a4a9c8e
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: extents
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280497774063}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: d3bfd14c-194b-4afa-a3bd-2838c87d6545
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: enabled
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280497774063}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 7aa0640d-0a83-4a29-be2b-1e55cdee4b05
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: isTrigger
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280497774063}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 51cac2ae-bf26-40fe-9eb7-7b3289cf051f
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: contactOffset
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280497774063}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: a64b0ae6-efe3-4e6f-bcac-57139a759402
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: hasModifiableContacts
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950280497774063}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 94c01900-1432-4e2b-adf7-96447f02af89
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: center
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279831179150}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 5542b16e-6cd3-430c-9d6b-1a4a58b87e65
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: size
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279831179150}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 33bf7d08-1fdb-43f2-9c85-39cf1cf478e4
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: extents
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279831179150}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: a039a02b-87da-46ce-a06b-08c2c4813c07
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: enabled
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279831179150}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: c15ad615-812a-4846-9267-7502ae2d28a9
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: isTrigger
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279831179150}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: c619381e-9114-4550-94b6-d16fa8d08d2c
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: contactOffset
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279831179150}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 8e4d26cc-093b-459c-81ac-a650eb50ea4a
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: hasModifiableContacts
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 8131950279831179150}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 1b1539d5-6cab-42a2-a693-de539e57d459
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  customBindings:
+  - descriptor:
+      name: position
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: Coherence.Generated.WorldPosition, Assembly-CSharp
+      bakedSyncScriptGetter: coherencePosition
+      bakedSyncScriptSetter: coherencePosition
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: WorldPosition
+      coherenceComponentFieldName: value
+      schemaComponentFieldName: value
+      extraData: 
+      extraFlags: 0
+      required: 1
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 1
+    component: {fileID: 8131950279879773347}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 00f3d8d5-2a7d-4c03-a544-903b3ded678c
+    interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 30
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: rotation
+      displayName: 
+      monoAssemblyType: UnityEngine.Quaternion, UnityEngine
+      coherenceAssemblyType: Coherence.Generated.WorldOrientation, Assembly-CSharp
+      bakedSyncScriptGetter: coherenceRotation
+      bakedSyncScriptSetter: coherenceRotation
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Quaternion
+      coherenceComponentName: WorldOrientation
+      coherenceComponentFieldName: value
+      schemaComponentFieldName: value
+      extraData: 
+      extraFlags: 0
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 1
+    component: {fileID: 8131950279879773347}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: ef59266a-38b9-4329-99c0-2176cd519680
+    interpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: scale
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: Coherence.Generated.GenericScale, Assembly-CSharp
+      bakedSyncScriptGetter: coherenceLocalScale
+      bakedSyncScriptSetter: coherenceLocalScale
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: GenericScale
+      coherenceComponentFieldName: value
+      schemaComponentFieldName: value
+      extraData: 
+      extraFlags: 0
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 0}
+      enforcesLODingWhenFieldsOverriden: 1
+    component: {fileID: 8131950279879773347}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: c847708d-f7eb-4f66-b1cc-e116a75901d6
+    interpolationSettings: {fileID: 0}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: position
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localPosition
+      bakedSyncScriptSetter: localPosition
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279819150429}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: b4a8ded9-7466-408d-82e0-fb205a315440
+    interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: rotation
+      displayName: 
+      monoAssemblyType: UnityEngine.Quaternion, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localRotation
+      bakedSyncScriptSetter: localRotation
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Quaternion
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279819150429}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: cc1ff101-6844-4515-b077-7142b1fa7391
+    interpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: scale
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localScale
+      bakedSyncScriptSetter: localScale
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 0}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279819150429}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: aa8a244c-4d68-4f0d-9f00-a63d533c8e9b
+    interpolationSettings: {fileID: 0}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: position
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localPosition
+      bakedSyncScriptSetter: localPosition
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950280129045102}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 28d89756-f5ec-40c6-b6eb-a6c6db02c892
+    interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: rotation
+      displayName: 
+      monoAssemblyType: UnityEngine.Quaternion, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localRotation
+      bakedSyncScriptSetter: localRotation
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Quaternion
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950280129045102}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 75a59633-0272-4c1f-bcf8-5b1147c74568
+    interpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: scale
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localScale
+      bakedSyncScriptSetter: localScale
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 0}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950280129045102}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 5cefd5ed-afae-450a-b03c-01d20bbf35a5
+    interpolationSettings: {fileID: 0}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: position
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localPosition
+      bakedSyncScriptSetter: localPosition
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279977235363}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 33cf6ae6-6896-4806-af89-f274d2459edb
+    interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: rotation
+      displayName: 
+      monoAssemblyType: UnityEngine.Quaternion, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localRotation
+      bakedSyncScriptSetter: localRotation
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Quaternion
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279977235363}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: a2d2e7eb-4791-4427-b532-c08abcb6a922
+    interpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: scale
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localScale
+      bakedSyncScriptSetter: localScale
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 0}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279977235363}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 357270a7-2c9d-4e1c-ab8e-0cbd3aeccdcd
+    interpolationSettings: {fileID: 0}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: position
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localPosition
+      bakedSyncScriptSetter: localPosition
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279713318959}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 2aac46b8-1555-444a-b95f-e0aa27695292
+    interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: rotation
+      displayName: 
+      monoAssemblyType: UnityEngine.Quaternion, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localRotation
+      bakedSyncScriptSetter: localRotation
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Quaternion
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279713318959}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: d4ac985c-e356-4517-9d73-5a196fd36def
+    interpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: scale
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localScale
+      bakedSyncScriptSetter: localScale
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 0}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279713318959}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: a9a91e7b-5916-42a2-97af-ff663e46232d
+    interpolationSettings: {fileID: 0}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: position
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localPosition
+      bakedSyncScriptSetter: localPosition
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279341121008}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 9944a72b-d182-4b07-b4fc-246d0dff4083
+    interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: rotation
+      displayName: 
+      monoAssemblyType: UnityEngine.Quaternion, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localRotation
+      bakedSyncScriptSetter: localRotation
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Quaternion
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279341121008}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: bcd599c6-d120-4633-9daa-6dfa9e536d50
+    interpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: scale
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localScale
+      bakedSyncScriptSetter: localScale
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 0}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279341121008}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 870053fc-5b7b-46d8-8c28-354d17b00698
+    interpolationSettings: {fileID: 0}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: position
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localPosition
+      bakedSyncScriptSetter: localPosition
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279048504982}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 96920a8b-c2d5-4bfb-ab90-c52e8a9fe08c
+    interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: rotation
+      displayName: 
+      monoAssemblyType: UnityEngine.Quaternion, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localRotation
+      bakedSyncScriptSetter: localRotation
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Quaternion
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279048504982}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 1a739c67-7862-47ac-9c58-aa33c3512853
+    interpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: scale
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localScale
+      bakedSyncScriptSetter: localScale
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 0}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279048504982}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 8cbe399e-4ffc-42b1-a23a-c9fabf225caf
+    interpolationSettings: {fileID: 0}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: position
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localPosition
+      bakedSyncScriptSetter: localPosition
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279584126627}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 061f4913-ffc7-429f-a3ff-9dce719efde3
+    interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: rotation
+      displayName: 
+      monoAssemblyType: UnityEngine.Quaternion, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localRotation
+      bakedSyncScriptSetter: localRotation
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Quaternion
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279584126627}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 0d9b13cd-35bb-43ca-8000-f496bcc7f66c
+    interpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: scale
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localScale
+      bakedSyncScriptSetter: localScale
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 0}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279584126627}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 3bc74aad-e8cd-4dbc-9a5b-ddf26ca24928
+    interpolationSettings: {fileID: 0}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: position
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localPosition
+      bakedSyncScriptSetter: localPosition
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950280497774056}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 69d3d935-072f-4ab7-ac0e-c484fcecd296
+    interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: rotation
+      displayName: 
+      monoAssemblyType: UnityEngine.Quaternion, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localRotation
+      bakedSyncScriptSetter: localRotation
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Quaternion
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950280497774056}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 7c9c293b-0297-4b6d-9976-1578dab78cb0
+    interpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: scale
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localScale
+      bakedSyncScriptSetter: localScale
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 0}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950280497774056}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 9318eed0-c6f8-422f-a49c-f476f50c59f9
+    interpolationSettings: {fileID: 0}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: position
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localPosition
+      bakedSyncScriptSetter: localPosition
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279831179151}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: d8cb7ecf-3a09-460f-aa45-055a89dc5895
+    interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: rotation
+      displayName: 
+      monoAssemblyType: UnityEngine.Quaternion, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localRotation
+      bakedSyncScriptSetter: localRotation
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Quaternion
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279831179151}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 0dd8abb8-a355-4f85-85ad-fa0418c5a176
+    interpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: scale
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: 
+      bakedSyncScriptGetter: localScale
+      bakedSyncScriptSetter: localScale
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: 
+      coherenceComponentFieldName: 
+      schemaComponentFieldName: 
+      extraData: 
+      extraFlags: 1
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 0}
+      enforcesLODingWhenFieldsOverriden: 0
+    component: {fileID: 8131950279831179151}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 82871188-3287-498a-bfbd-f0d7a5f2b22f
+    interpolationSettings: {fileID: 0}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  onNetworkedInstantiation:
+    m_PersistentCalls:
+      m_Calls: []
+  onBeforeNetworkedInstantiation:
+    m_PersistentCalls:
+      m_Calls: []
+  onNetworkedDestruction:
+    m_PersistentCalls:
+      m_Calls: []
+  remoteVersionPrefabName: AirHockeyTable
+  PrefabGuid: 3b6811d8-936d-47dd-be19-0f11001a7c48
+  selectedSynchronizedPrefabOption: 2
+  usingReflection: 0
+  coherenceTag: 
+  componentActions: []
+  references:
+    version: 2
+    RefIds: []
+--- !u!114 &7314817237153471741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279879773372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d470e57c013458981031cae99a354f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoAssignOnSceneInstances: 1
+--- !u!1 &8131950279977235388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8131950279977235363}
+  - component: {fileID: 8131950279977235360}
+  - component: {fileID: 8131950279977235361}
+  - component: {fileID: 8131950279977235362}
+  m_Layer: 0
+  m_Name: Goal2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8131950279977235363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279977235388}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8.299, z: 6.006}
+  m_LocalScale: {x: 0.4, y: 0.01, z: 0.01}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8131950279879773347}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8131950279977235360
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279977235388}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8131950279977235361
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279977235388}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5cde5f0f7abf2c3498f53d9c76cc4fd8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8131950279977235362
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950279977235388}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8131950280129045103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8131950280129045102}
+  - component: {fileID: 8131950280129045075}
+  - component: {fileID: 8131950280129045100}
+  - component: {fileID: 8131950280129045101}
+  m_Layer: 0
+  m_Name: Goal1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8131950280129045102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950280129045103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8.299, z: 8.0101}
+  m_LocalScale: {x: 0.4, y: 0.01, z: 0.01}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8131950279879773347}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8131950280129045075
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950280129045103}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8131950280129045100
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950280129045103}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5cde5f0f7abf2c3498f53d9c76cc4fd8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8131950280129045101
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950280129045103}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8131950280497774057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8131950280497774056}
+  - component: {fileID: 8131950280497774061}
+  - component: {fileID: 8131950280497774062}
+  - component: {fileID: 8131950280497774063}
+  - component: {fileID: 8131950280497774060}
+  m_Layer: 0
+  m_Name: GoalWall3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8131950280497774056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950280497774057}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.351, y: 8.299, z: 8.01}
+  m_LocalScale: {x: 0.3, y: 0.01, z: 0.01}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8131950279879773347}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8131950280497774061
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950280497774057}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8131950280497774062
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950280497774057}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 80ccf648875fd5144978f7a8760f10dc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8131950280497774063
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950280497774057}
+  m_Material: {fileID: 13400000, guid: 36d8107c52ff908458d4c0e368522156, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &8131950280497774060
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131950280497774057}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 126
+  m_CollisionDetection: 1

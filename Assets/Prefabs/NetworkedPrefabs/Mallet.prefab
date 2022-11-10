@@ -1,0 +1,1804 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1346935421561358310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5326138786584244737}
+  - component: {fileID: 5103813366082612604}
+  - component: {fileID: 3239353100064038034}
+  m_Layer: 0
+  m_Name: Mallet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5326138786584244737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346935421561358310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.06800001, y: 0.489, z: 3.732}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5524160343949333403}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5103813366082612604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346935421561358310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff62c046a053f416a8dc48ad6483a25e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAuthorityGained:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStateAuthority:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInputAuthority:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAuthorityLost:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStateRemote:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInputRemote:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAuthorityTransferRejected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAuthorityRequestRejected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnConnectedEntityChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInputSimulatorConnected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInputOwnerAssigned:
+    m_PersistentCalls:
+      m_Calls: []
+  archetype:
+    boundComponents:
+    - component: {fileID: 5326138786584244737}
+      lodStepsActive: 1
+    - component: {fileID: 5524160343949333403}
+      lodStepsActive: 1
+    - component: {fileID: 4452190281705035595}
+      lodStepsActive: 1
+    - component: {fileID: 8594686916438854094}
+      lodStepsActive: 1
+    - component: {fileID: 5198739634379064724}
+      lodStepsActive: 1
+    - component: {fileID: 3239353100064038034}
+      lodStepsActive: 1
+    - component: {fileID: 5691244912985093494}
+      lodStepsActive: 1
+    - component: {fileID: 7879269780727283091}
+      lodStepsActive: 1
+    - component: {fileID: 378198058978522869}
+      lodStepsActive: 1
+    - component: {fileID: 3137624468232331411}
+      lodStepsActive: 1
+    - component: {fileID: 234592257278173545}
+      lodStepsActive: 1
+    - component: {fileID: 3549382182865601929}
+      lodStepsActive: 1
+    - component: {fileID: 8852262962562370750}
+      lodStepsActive: 1
+    lodLevels:
+    - distance: 0
+    archetypeName: Mallet_38e627b1eb339e74eb512bd8e1020e39
+    GeneratesArchetypeDefinition: 1
+  InterpolationLocation: -1
+  bakedScriptType: Coherence.Generated.CoherenceSyncMallet_id3, Assembly-CSharp
+  approveAuthorityTransferRequests: 1
+  simulationType: 0
+  authorityTransferType: 2
+  orphanedBehavior: 0
+  lifetimeType: 0
+  uniquenessType: 0
+  coherenceUUID: 
+  destructionBehavior: 0
+  reflectionBindings:
+  - name: velocity
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: a541efd0-369b-4e3e-91ff-8df163a60fba
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: angularVelocity
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 72e18921-a8a3-4672-a37e-01e0b30fcfb2
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: drag
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 1be7eb57-b6c4-48b9-8c93-9f6669d52862
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: angularDrag
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 10b39dc9-af1d-4afc-b9ab-e0b83571a00a
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: mass
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 43f75417-8172-42b7-953e-2c74ae5ff747
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: useGravity
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: d3428390-350c-4bfb-a24e-3e6386c67c4a
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: maxDepenetrationVelocity
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 69f71b6f-7e7a-47a2-ad1a-eb380b679a6f
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: isKinematic
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: af1289cb-960d-4ede-bb7a-70aa6a1650d8
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: freezeRotation
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 0d594cae-52d0-4808-9c9f-8e6eaf36f997
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: centerOfMass
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: f1f71f95-6305-45b5-96eb-86d2e097ff76
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: inertiaTensorRotation
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Quaternion, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: e06e88c1-44fe-4d95-9590-8a15194eef25
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: inertiaTensor
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 02261d26-f183-466f-bab4-73a9f7344162
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: detectCollisions
+    memberKind: 2
+    memberAssemblyType: System.Boolean, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: cf660926-e76a-429e-948c-a5df0efe7d2e
+    archetypeData:
+      type: 3
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 3
+        bits: 1
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: position
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Vector3, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: a9c90ab5-74ad-492f-97a9-72883d5f361e
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: rotation
+    memberKind: 2
+    memberAssemblyType: UnityEngine.Quaternion, UnityEngine
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: afefe0cd-ddb7-4bd8-a379-df52257d2e2d
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: solverIterations
+    memberKind: 2
+    memberAssemblyType: System.Int32, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 3ccb70f9-9335-4084-b3b5-93300cf5a7ea
+    archetypeData:
+      type: 1
+      minRange: -2147483648
+      maxRange: 2147483647
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 1
+        bits: 32
+        minRange: -2147483648
+        maxRange: 2147483647
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: sleepThreshold
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 3887e586-6dff-4fa1-81b1-4abcfdbebc20
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: maxAngularVelocity
+    memberKind: 2
+    memberAssemblyType: System.Single, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: cf06a291-50ea-4ef3-98c2-e34cb584c01a
+    archetypeData:
+      type: 4
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 4
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: solverVelocityIterations
+    memberKind: 2
+    memberAssemblyType: System.Int32, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 3549093e-82ba-4bcd-ab2e-ce355f2e2112
+    archetypeData:
+      type: 1
+      minRange: -2147483648
+      maxRange: 2147483647
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 1
+        bits: 32
+        minRange: -2147483648
+        maxRange: 2147483647
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: solverIterationCount
+    memberKind: 2
+    memberAssemblyType: System.Int32, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 640a3a73-7a8a-4b93-ac23-0cd3b610dbd9
+    archetypeData:
+      type: 1
+      minRange: -2147483648
+      maxRange: 2147483647
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 1
+        bits: 32
+        minRange: -2147483648
+        maxRange: 2147483647
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: solverVelocityIterationCount
+    memberKind: 2
+    memberAssemblyType: System.Int32, mscorlib
+    parameterAssemblyTypes: []
+    returnAssemblyType: 
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 3239353100064038034}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 60784cd0-325d-4f88-9874-0fe426ad5f81
+    archetypeData:
+      type: 1
+      minRange: -2147483648
+      maxRange: 2147483647
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 1
+        bits: 32
+        minRange: -2147483648
+        maxRange: 2147483647
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: SetParent
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Transform, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 0e712ec4-076e-449f-9836-888ca7097d53
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: SetParent
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Transform, UnityEngine
+    - System.Boolean, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: d25fb599-84f2-4aab-9af2-3ba1d3d4aac4
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: SetPositionAndRotation
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    - UnityEngine.Quaternion, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 1283c8ed-d839-4135-b307-b48a0c151d6d
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: Translate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: dbd4f479-19ad-457b-a5e6-a235574fef52
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: Translate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - System.Single, mscorlib
+    - System.Single, mscorlib
+    - System.Single, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: c5d79470-9007-44ac-ad81-00983876d153
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: Translate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    - UnityEngine.Transform, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 75d0afd5-8cb8-4a09-9d4d-12a658291561
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: Translate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - System.Single, mscorlib
+    - System.Single, mscorlib
+    - System.Single, mscorlib
+    - UnityEngine.Transform, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: b5384b58-382f-468f-befe-56bfea320641
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: Rotate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: e9292d4a-b713-48dd-a95b-2565070acd5a
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: Rotate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - System.Single, mscorlib
+    - System.Single, mscorlib
+    - System.Single, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 4fec5e56-e721-4bee-a344-b92d04cb399e
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: Rotate
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    - System.Single, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: d95b67bd-9673-4ddf-9f25-9471767db03b
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: RotateAround
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    - UnityEngine.Vector3, UnityEngine
+    - System.Single, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 21a8c7bb-661d-4248-9b9f-9e0bd56e0399
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: LookAt
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Transform, UnityEngine
+    - UnityEngine.Vector3, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 18d61bcb-5d00-411f-b58f-788974b17350
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: LookAt
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Transform, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 08cd96d5-155f-4a09-8978-33adb4c48f6c
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: LookAt
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    - UnityEngine.Vector3, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 328d76ea-45d3-4742-9d56-bfd6bbb501b6
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: LookAt
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 765175f8-b8ae-4b71-b29f-c5b935a353b3
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: DetachChildren
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes: []
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 9839b5d3-c28f-4b01-9605-63c4cbf1e5d0
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: SetAsFirstSibling
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes: []
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 63d01df6-9e4d-4a66-949b-92b3c835e8c7
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: SetAsLastSibling
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes: []
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 772107ca-ad06-4655-a716-f356c15bb427
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: SetSiblingIndex
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - System.Int32, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 7f8392e9-8277-4a4e-8b11-80016f8d4ebc
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: RotateAround
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    - System.Single, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 7ae8fe39-1de8-4c58-a3c9-43faf521421d
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - name: RotateAroundLocal
+    memberKind: 3
+    memberAssemblyType: 
+    parameterAssemblyTypes:
+    - UnityEngine.Vector3, UnityEngine
+    - System.Single, mscorlib
+    returnAssemblyType: System.Void, mscorlib
+    compatibility: -1
+    routing: 1
+    required: 0
+    interpolationSettings: {fileID: 0}
+    component: {fileID: 5326138786584244737}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    guid: 62d214e3-383c-4149-9fd9-d69cc1a529dd
+    archetypeData:
+      type: 0
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 0
+        bits: 0
+        minRange: 0
+        maxRange: 0
+        precision: 0
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  customBindings:
+  - descriptor:
+      name: position
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: Coherence.Generated.WorldPosition, Assembly-CSharp
+      bakedSyncScriptGetter: coherencePosition
+      bakedSyncScriptSetter: coherencePosition
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: WorldPosition
+      coherenceComponentFieldName: value
+      schemaComponentFieldName: value
+      extraData: 
+      extraFlags: 0
+      required: 1
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 1
+    component: {fileID: 5326138786584244737}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: b4382f82-d5e3-46fb-95f2-3a1b76c85174
+    interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 30
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: scale
+      displayName: 
+      monoAssemblyType: UnityEngine.Vector3, UnityEngine
+      coherenceAssemblyType: Coherence.Generated.GenericScale, Assembly-CSharp
+      bakedSyncScriptGetter: coherenceLocalScale
+      bakedSyncScriptSetter: coherenceLocalScale
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Vector3
+      coherenceComponentName: GenericScale
+      coherenceComponentFieldName: value
+      schemaComponentFieldName: value
+      extraData: 
+      extraFlags: 0
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 0}
+      enforcesLODingWhenFieldsOverriden: 1
+    component: {fileID: 5326138786584244737}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 3ffade1c-041a-45b7-af8b-5d37bbbb2b0f
+    interpolationSettings: {fileID: 0}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 7
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 7
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.001
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  - descriptor:
+      name: rotation
+      displayName: 
+      monoAssemblyType: UnityEngine.Quaternion, UnityEngine
+      coherenceAssemblyType: Coherence.Generated.WorldOrientation, Assembly-CSharp
+      bakedSyncScriptGetter: coherenceRotation
+      bakedSyncScriptSetter: coherenceRotation
+      bakedSyncScriptFieldName: 
+      bakedSyncScriptCSharpType: UnityEngine.Quaternion
+      coherenceComponentName: WorldOrientation
+      coherenceComponentFieldName: value
+      schemaComponentFieldName: value
+      extraData: 
+      extraFlags: 0
+      required: 0
+      interpolable: 1
+      defaultInterpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+        type: 2}
+      enforcesLODingWhenFieldsOverriden: 1
+    component: {fileID: 5326138786584244737}
+    serializerAssemblyType: Coherence.Toolkit.TransformBindingSerializer, Coherence.Toolkit
+    guid: 3dcecdf8-5784-40ef-9da5-0848f6bd556a
+    interpolationSettings: {fileID: 11400000, guid: f45c201a9dd7a4866ac502d18deed702,
+      type: 2}
+    coherenceSync: {fileID: 0}
+    isPredicted: 0
+    archetypeData:
+      type: 8
+      minRange: 0
+      maxRange: 0
+      sampleRate: 0
+      floatCompression: 0
+      fields:
+      - type: 8
+        bits: 32
+        minRange: 0
+        maxRange: 0
+        precision: 0.00000008381903
+        floatCompression: 0
+      sharedBinding: {fileID: 0}
+  onNetworkedInstantiation:
+    m_PersistentCalls:
+      m_Calls: []
+  onBeforeNetworkedInstantiation:
+    m_PersistentCalls:
+      m_Calls: []
+  onNetworkedDestruction:
+    m_PersistentCalls:
+      m_Calls: []
+  remoteVersionPrefabName: Mallet
+  PrefabGuid: 2927727d-7370-4ae8-bfd8-bd7bad7c5c9f
+  selectedSynchronizedPrefabOption: 2
+  usingReflection: 0
+  coherenceTag: 
+  componentActions: []
+  references:
+    version: 2
+    RefIds: []
+--- !u!54 &3239353100064038034
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346935421561358310}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &1411555629065758400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5691244912985093494}
+  - component: {fileID: 7879269780727283091}
+  - component: {fileID: 378198058978522869}
+  - component: {fileID: 3137624468232331411}
+  - component: {fileID: 234592257278173545}
+  - component: {fileID: 3549382182865601929}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5691244912985093494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411555629065758400}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.4500022, z: 0}
+  m_LocalScale: {x: 0.1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5524160343949333403}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7879269780727283091
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411555629065758400}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &378198058978522869
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411555629065758400}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3137624468232331411
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411555629065758400}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &234592257278173545
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411555629065758400}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3549382182865601929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411555629065758400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 0}
+  - {fileID: 3137624468232331411}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 5691244912985093494}
+  m_UseDynamicAttach: 0
+  m_MatchAttachPosition: 1
+  m_MatchAttachRotation: 1
+  m_SnapToColliderVolume: 1
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 5
+  m_TightenPosition: 0.5
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 5
+  m_TightenRotation: 0.5
+  m_ThrowOnDetach: 0
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
+  m_StartingSingleGrabTransformers: []
+  m_StartingMultipleGrabTransformers: []
+  m_AddDefaultGrabTransformers: 1
+--- !u!1 &5979967777927166777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5524160343949333403}
+  - component: {fileID: 4452190281705035595}
+  - component: {fileID: 8594686916438854094}
+  - component: {fileID: 5198739634379064724}
+  - component: {fileID: 8852262962562370750}
+  m_Layer: 0
+  m_Name: Cylinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5524160343949333403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5979967777927166777}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.01, z: 0.1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5691244912985093494}
+  m_Father: {fileID: 5326138786584244737}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4452190281705035595
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5979967777927166777}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8594686916438854094
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5979967777927166777}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &5198739634379064724
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5979967777927166777}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!64 &8852262962562370750
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5979967777927166777}
+  m_Material: {fileID: 13400000, guid: bf23acf5bda391d41a922161d05c6ef3, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}

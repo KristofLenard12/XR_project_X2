@@ -5,35 +5,56 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+    Coherence.BakeOnBuild:
+      value: 52
+      flags: 0
+    Coherence.BakeOnEnterPlayMode:
+      value: 52
+      flags: 0
+    Coherence.CodeGen.LastInstallation:
+      value: 15011a545d1b5b
+      flags: 0
+    Coherence.CoherenceSyncSchemasDirty:
+      value: 53
+      flags: 0
+    Coherence.GatherOnBake:
+      value: 52
+      flags: 0
+    Coherence.LastInstallation:
+      value: 531f0d4857
+      flags: 0
+    Coherence.Settings.ActiveSchemas.Hash:
+      value: 55540d5504025003580c0f234022061241421d787f787366742a4e35b6e3616d
+      flags: 0
     RecentlyUsedSceneGuid-0:
-      value: 01085555545059035d585a2646260c4445164a7a742c7564282a4f6abae66461
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 00090c5201055e0d09585f7b48210a44424e4a282f2b70642f2b1860b2e2326d
-      flags: 0
-    RecentlyUsedSceneGuid-2:
       value: 0003005f560759580b085b7640730a44104e4f79282971367a2c4f67e0e4653e
       flags: 0
-    RecentlyUsedSceneGuid-3:
+    RecentlyUsedSceneGuid-1:
       value: 56050052500c5e0d0e5f082016725c444f151a79742a2767282b1c66b7b83160
       flags: 0
-    RecentlyUsedSceneGuid-4:
+    RecentlyUsedSceneGuid-2:
       value: 570952545c050c5f085e082448775a134e151c73757825652b7c4d61b4b6616c
       flags: 0
-    RecentlyUsedSceneGuid-5:
+    RecentlyUsedSceneGuid-3:
       value: 0653015255025f0a5b575f2041275a44454f4f797f29756575781861b3e66160
       flags: 0
-    RecentlyUsedSceneGuid-6:
+    RecentlyUsedSceneGuid-4:
       value: 0709505454535b0f5b5e087343760a44414f482f7829206079284436b2e4623d
       flags: 0
-    RecentlyUsedSceneGuid-7:
+    RecentlyUsedSceneGuid-5:
       value: 5257000256540c0d590f5d7214770c4412154a7b752c23682f784960b6b83169
       flags: 0
-    RecentlyUsedSceneGuid-8:
+    RecentlyUsedSceneGuid-6:
       value: 0052515003510b0d0e585f2446265c4443154f7e282971617f2d4f6be4b16d6e
       flags: 0
-    RecentlyUsedSceneGuid-9:
+    RecentlyUsedSceneGuid-7:
       value: 5550015004515a025a57597714700e4410164e2878297e33287b4d6be0b5306a
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 5204505151500f0c595a5a7546715d44454f1c78297c7e31287c4535b6b8366d
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 0705060300530a5e5d0d0a2343760f44414e4129742c27367c2a4f62b7b3613a
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650

@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/New Scene.unity
-    guid: 6a56ad397955d314fa6b4a8ce208b5d2
+    path: Assets/Scenes/AirHockeyScene.unity
+    guid: d42eefce0cfa3504799c8daf1c21535b
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
@@ -20,4 +20,6 @@ EditorBuildSettings:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1a4c68ca72a83449f938d669337cb305,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a9a6963505ddf7f4d886008c6dc86122,
+      type: 2}
+    io.coherence.simulator.build.options: {fileID: 11400000, guid: 591b9663748154048a7bc7ff07c8017b,
       type: 2}
