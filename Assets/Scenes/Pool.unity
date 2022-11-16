@@ -258,6 +258,37 @@ MonoBehaviour:
     - {x: -0.07043335, y: -0.05842878, z: 0.25414705, w: -0.9628263}
     - {x: -0.08106007, y: 0.008256052, z: -0.6054156, w: 0.7917279}
     - {x: 0.0031013004, y: 0.045839343, z: 0.2412008, w: -0.9693872}
+--- !u!1 &366344761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 366344762}
+  m_Layer: 0
+  m_Name: Ball Reset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &366344762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366344761}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 522295484}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &442150616
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,6 +428,7 @@ Transform:
   m_Children:
   - {fileID: 543450653457257573}
   - {fileID: 201765413}
+  - {fileID: 366344762}
   - {fileID: 1760935938}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -2003,7 +2035,7 @@ Transform:
   m_Children:
   - {fileID: 7479579043469094106}
   m_Father: {fileID: 522295484}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1867962557
 GameObject:
