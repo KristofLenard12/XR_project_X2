@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigolf.unity
     guid: f377c8b98872a464d979c4bb05266f4c
+  - enabled: 0
+    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/HandGrabExamples.unity
+    guid: 39ae0e546b9edc0408d3b11c6a7c2814
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
