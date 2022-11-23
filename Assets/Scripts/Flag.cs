@@ -5,17 +5,17 @@ using UnityEngine;
 
 public class Flag : MonoBehaviour
 {
-    private GameObject flag;
     void Start()
     {
-        flag = GameObject.Find("Flag");
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.gameObject.name);
         if (other.gameObject.CompareTag("GolfBall"))
         {
-            flag.GetComponent<Renderer>().material.color = Color.green;
+            GameObject grandpa = transform.parent.parent.gameObject;
+            grandpa.gameObject.GetComponent<Renderer>().material.color = Color.green;
         }
     }
 }
